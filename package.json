@@ -1,0 +1,17 @@
+{
+  "name": "cy.socity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Virender",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.14.1"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.24.0"
+  }
+}
