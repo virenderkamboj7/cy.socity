@@ -35,7 +35,7 @@ describe('TC_test_02',() => {
             cy.log("Total number of applicants are: "+applicatantsCount);
             
         //8.Enter Applicant Details
-        for(let i=1; i<2; i++){
+        for(let i=1; i<applicatantsCount; i++){
             
                 na.typeApplicantName(excelData[0].data[i][0])
                 na.typeDob(excelData[0].data[i][1])
