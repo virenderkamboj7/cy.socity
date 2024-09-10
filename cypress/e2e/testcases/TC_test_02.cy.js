@@ -18,7 +18,6 @@ describe('TC_test_02',() => {
             //3. Click on Login button
             na.clickSubmitBtn()
 
-
         //4.Click on Society button
             na.clickSocity()
 
