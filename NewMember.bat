@@ -1,1 +1,1 @@
-npx cypress run --browser chrome --headed --no-exit --spec "cypress\e2e\testcases\TC_test_05.cy.js"
+npx cypress run --browser edge --headed --no-exit --spec "cypress\e2e\testcases\TC_test_05.cy.js"
