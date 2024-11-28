@@ -1,0 +1,1 @@
+npx cypress run --browser chrome --headed --no-exit --spec "cypress\e2e\testcases\TC_test_01.cy.js"
