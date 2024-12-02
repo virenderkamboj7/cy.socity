@@ -5,6 +5,7 @@ class NewMember {
     css_fillingOfMendatoryTab1 = "a[data-reveal-id='firstModal5']"
     css_iReadBtn = "body > div:nth-child(23) > a:nth-child(5)"
     css_selectBtn = ".label"
+    css_selectButtons = "tbody>tr> td:nth-child(6)>a"
     css_personName = "input[name='applicant_name']"
     css_address = "textarea[name='applicant_address']"
     css_state = "#state_id"
@@ -51,7 +52,7 @@ class NewMember {
     }
 
     clickSelectBtn(){
-        cy.get(this.css_selectBtn).click()
+        cy.get(this.css_selectButtons).last().click()
     }
 
 

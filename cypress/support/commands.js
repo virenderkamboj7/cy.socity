@@ -30,3 +30,6 @@
 Cypress.Commands.add('parseXlsx', (filePath) => {
     return cy.task('parseXlsx', {filePath: filePath})
 })
+
+//xpath support
+require('cypress-xpath')
