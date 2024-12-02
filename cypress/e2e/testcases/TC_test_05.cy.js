@@ -117,10 +117,10 @@ describe('TC_test_05',() => {
                 nm.typeAmoutingOfFee(excelData[1].data[i][17])
 
                 //35.Upload File 1
-                nm.uploadFile1("cypress/fixtures/fileUploads/Resolution.pdf")
+                nm.uploadFile1("fileUploads/Resolution.pdf")
 
                 //35.Upload File 2
-                nm.uploadFile2("cypress/fixtures/fileUploads/Resolution.pdf")
+                nm.uploadFile2("fileUploads/Resolution.pdf")
 
                 //34.Click on Add To List button
                 // nm.clickAddToListBtn()
